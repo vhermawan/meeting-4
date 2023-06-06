@@ -1,0 +1,69 @@
+.navbar{
+ position:sticky; /*relative, absolute, fixed*/
+ width: 100%;
+ background-color: aqua;
+ top:0;
+ 
+}
+
+#display{
+  width: 200px;
+  height: 80vh; /*vertical height*/
+  background-color: red;
+  /* color: white; */
+}
+
+.display-block{
+  display: block;
+  color: white
+}
+
+.display-block-2{
+
+}
+
+.display-content{
+  /* color: yellow; */
+  width: 80px;
+  background-color: blue;
+}
+
+#position{
+  display: flex;
+  flex-direction: row;
+  flex-wrap:nowrap;
+}
+
+.fixed{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  position: fixed;
+}
+
+.absolute{
+  position: absolute;
+  float: right;
+  width: 300px;
+  height: 300px;
+  right: 0;
+  background-color: blue;
+}
+
+.relative{
+  position:relative;
+  width: 300px;
+  height: 300px;
+  background-color: green;
+}
+
+.box-model{
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  margin: 10px;
+  background-color: blueviolet;
+}
